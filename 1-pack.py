@@ -38,4 +38,18 @@ button_minus = ttk.Button(button_row2, text="-")
 button_minus.pack(side=LEFT)
 
 
+button_row3 = Frame(button_frame1)
+button_row3.pack(side=TOP)
+
+button1 = ttk.Button(button_row3, text="1")
+button1.pack(side=LEFT)
+button2 = ttk.Button(button_row3, text="2")
+button2.pack(side=LEFT)
+button3 = ttk.Button(button_row3, text="3")
+button3.pack(side=LEFT)
+button_multiply = ttk.Button(button_row3, text="*")
+button_multiply.pack(side=LEFT)
+
+
+
 root.mainloop()
