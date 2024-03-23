@@ -10,3 +10,9 @@ password = ttk.Label(root, text="Password:")
 password.place(x=50, y=60)
 
 
+# Entry widgets
+username_entry = ttk.Entry(root)
+username_entry.place(x=150, y=30)
+password_entry = ttk.Entry(root) 
+password_entry.place(x=150, y=60)
+
