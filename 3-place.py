@@ -16,3 +16,8 @@ username_entry.place(x=150, y=30)
 password_entry = ttk.Entry(root) 
 password_entry.place(x=150, y=60)
 
+# Login button
+login_button = ttk.Button(root, text="Login")
+login_button.place(x=150, y=90)
+
+root.mainloop()
