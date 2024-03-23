@@ -51,5 +51,17 @@ button_multiply = ttk.Button(button_row3, text="*")
 button_multiply.pack(side=LEFT)
 
 
+button_row4 = Frame(button_frame1)
+button_row4.pack(side=TOP)
+
+button_clear = ttk.Button(button_row4, text="C")
+button_clear.pack(side=LEFT)
+button0 = ttk.Button(button_row4, text="0")
+button0.pack(side=LEFT)
+button_equal = ttk.Button(button_row4, text="=")
+button_equal.pack(side=LEFT)
+button_divide = ttk.Button(button_row4, text="/")
+button_divide.pack(side=LEFT)
+
 
 root.mainloop()
